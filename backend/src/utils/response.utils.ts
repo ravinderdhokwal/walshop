@@ -6,11 +6,6 @@ interface ApiResponseBody<T> {
   data?: T | null;
 }
 
-/**
- * Standardized API response helper.
- * Ensures consistent response structure across all controllers.
- */
-
 export const ApiResponse = <T>(
     res: Response,
     statusCode: number,
