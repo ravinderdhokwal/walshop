@@ -11,5 +11,4 @@ import testRoutes from "./routes/test.routes.js";
 // Using routes
 app.use("/api/v1", testRoutes);
 
-
 export default app;
